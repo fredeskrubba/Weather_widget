@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: #fff;
+    text-shadow: black 2px 2px 2px;
+}
+#widget-container{
+    margin: 3rem;
+    background: blue;
+    border-radius: 30px;
+    padding: 1rem 0;
+    width: 80%;
+}
+
+#upper-section{
+    margin: 0 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    h1{
+        margin: 0;
+        padding: 0 1rem;
+        background-color: #00000055;
+        border-radius: 30px;
+        font-size: 3rem;
+    }
+    #date-box{
+        margin-left: auto;
+        display: flex;
+        padding: 1rem;
+        gap: 1rem;
+        align-items: center;
+        background-color: #00000055;
+        border-radius: 30px;
+        #time{
+            border-right: 2px solid black;
+            padding: 0 1rem;
+        }
+        #date{
+            padding-right: 1rem;
+        }
+    }
+}
+
+#middle-section{
+
+}
